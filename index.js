@@ -28,7 +28,7 @@ if (config.MODO_PERSISTENCIA == 'MONGO') {
     await CnxMDB.conectar()
 }
 
-//const PORT = config.PORT
+//const PORT = config.PORTs
 const PORT = process.env.PORT || config.PORT
 const server = app.listen(PORT, () => {
     console.log(`Servidor escuchando en puerto ${PORT}`)

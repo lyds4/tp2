@@ -6,8 +6,11 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "run": "npm index.js",
+    "start": "npm index.js",
     "watch": "nodemon index.js"
+  },
+  "engines": {
+    "node": ">=16"
   },
   "keywords": [],
   "author": "",
